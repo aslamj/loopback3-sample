@@ -102,6 +102,6 @@ Response: 204
 6. When Logout is click on the header, UI calls the REST API: POST: localhost:3000/apis/users/logout to perform logout. After successful logout the header starts displaying Login and SignUp menu-items again.
 7. A pre-existing User clicks Login menu-item which dsiplays a form with email and password in modal to gain access to application using REST API call: localhost:3000/users/login.
 
-Note: Overall stying of app is not needed here, but use of bootstrap or any other UI library (like material-ui) is welcomed.
+Note: Overall stying of app is not needed here, but use of bootstrap or any other UI library (like material-ui) is welcomed. Here is an image showing the UI wireframe and flow: https://github.com/aslamj/loopback3-sample/blob/master/ui-flow.jpg.
 
 ***Interview ask here is to estimate how much time (1-5 days) is needed and then once estimate-time and start-date (to code) is confirmed with us, submit the code using email. We'll review the pull-request and then conduct a screen-share session is code is looking production level, where we ask questions about your submitted code.***
