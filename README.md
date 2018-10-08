@@ -92,7 +92,7 @@ Response: 204
 
 ## Interview Task
 
-**Add a Single Page Application (SPA) using ReactJS or AngularJS for above api-server, which does following:**
+**Add a Single Page Application (SPA) using ReactJS or AngularJS for above api-server (https://github.com/aslamj/loopback3-sample), which does following:**
 
 1. Create the SPA's layout with Header, Main and Foorter views.
 2. The Header and Footer must be sticky (i.e. header must stick on top of the page, footer must stick on the bottom of the page).
@@ -104,4 +104,4 @@ Response: 204
 
 Note: Overall stying of app is not needed here, but use of bootstrap or any other UI library (like material-ui) is welcomed. Here is an image showing the UI wireframe and flow: https://github.com/aslamj/loopback3-sample/blob/master/ui-flow.jpg.
 
-***Interview ask here is to estimate how much time (1-5 days) is needed and then once estimate-time and start-date (to code) is confirmed with us, submit the code using email. We'll review the pull-request and then conduct a screen-share session is code is looking production level, where we ask questions about your submitted code.***
+***First ask, to be fulfilled in 24 hours time is to estimate how much time (1-5 days) is needed and when would you begin implementing the needed code? We believe in no pressure in coding while interviewing in-person, and  want to know how you estimate a story (ask/requirement) and code/test @ production level). Once you confirm these times with us, git clone the skeleton code, do the implemntation and submit the code using email. We'll review the pull-request and if code looks production level, we will then conduct a screen-share session, where we ask questions about your submitted code. If all goes well, we will respond accordingly to next steps.***
