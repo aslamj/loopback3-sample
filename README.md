@@ -94,9 +94,9 @@ Response: 204
 
 **Add a Single Page Application (SPA) using ReactJS or AngularJS for above api-server (https://github.com/aslamj/loopback3-sample), which does following:**
 
-1. Create the SPA's layout with Header, Main and Foorter views.
+1. Create the SPA's layout with Header, Main and Footer views (a sample react application is already present in client folder, but you are very welcome to create your own React or Anguilar sample application).
 2. The Header and Footer must be sticky (i.e. header must stick on top of the page, footer must stick on the bottom of the page).
-3. The SPA start at base route, like : localhost:4000/, with headre showing Login and SignUp menu options (right alined) available to begin with.
+3. The SPA start at base route, like : localhost:4000/, with header showing Login and SignUp menu options (right alined) available to begin with.
 4. Upon clicking SignUp, a modal shows up with a input-form asking user to input, first-name, last-name, email & password fields, with a sign-up button. After client side input validation, the form submits using REST api: POST: localhost:3000/users as described above in server REST section. 
 5. After successful sign-up, UI (url: localhost:4000/home) implicitly call login REST API to log in the user. At this time the header Login and SignUp menu-items are removed and a new option of Logout is shown. Also the app's main content displays user details in format: Good Morning/Afternoon/Evening {{first-name}} {{last-name}}!! Here Morning/Afternoon/Evening is shown based on user's browser time and first-name last-name is obtained by calling another REST api: GET localhost:3000/api/users/<user-id>.
 6. When Logout is click on the header, UI calls the REST API: POST: localhost:3000/apis/users/logout to perform logout. After successful logout the header starts displaying Login and SignUp menu-items again.
